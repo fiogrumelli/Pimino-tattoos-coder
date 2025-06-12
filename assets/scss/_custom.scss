@@ -1,0 +1,40 @@
+/* nav pills */
+.nav-pills .nav-link {
+  background-color: #fff;
+  color: #333;
+  border-radius: 50px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  transition: background-color .3s, color .3s;
+}
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link.active {
+  background-color: #C32EFF;
+  color: #fff;
+}
+
+.btn-pimino {
+  background-color: #C32EFF;
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+  font-weight: 500;
+  transition: background-color .3s;
+}
+.btn-pimino:hover {
+  background-color: lighten(#C32EFF, 10%);
+}
+
+// ——————————————————————————
+// Fondos lila para las páginas de Tattoos y Stickers
+// ——————————————————————————
+#tattoos,
+#stickers {
+  background-color: $lila-claro;  // tu variable definida en _variables.scss
+  padding: 3rem 1rem;             // separaciones arriba y abajo
+
+  // Opcional: si querés el título en Impact
+  h2 {
+    font-family: Impact, Charcoal, sans-serif;
+  }
+}
