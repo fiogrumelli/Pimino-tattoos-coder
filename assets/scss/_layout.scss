@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'mixins';
+
+header {
+  background: $purple;
+  padding: 1rem;
+
+  @include respond-to(tablet) {
+    padding: 2rem;
+  }
+}
+
+.novedades {
+  display: grid;
+  gap: 1rem;
+
+  @include respond-to(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+header {
+  background: $purple;
+  padding: 1rem;
+  @include respond-to(tablet) { padding: 2rem; }
+}
+nav {
+  background: $lila-claro;
+  .nav-pills {
+  }
+}
+.stickers, .tattoos {
+  display: grid;
+  gap: 1rem;
+
+  @include respond-to(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}

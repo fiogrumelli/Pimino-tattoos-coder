@@ -1,0 +1,9 @@
+@import 'variables'; 
+
+@each $name, $size in $breakpoints {
+  @mixin respond-to(#{$name}) {
+    @media (min-width: $size) {
+      @content;
+    }
+  }
+}

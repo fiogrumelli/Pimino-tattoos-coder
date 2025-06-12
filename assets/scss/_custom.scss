@@ -25,15 +25,15 @@
   background-color: lighten(#C32EFF, 10%);
 }
 
-// ——————————————————————————
+
 // Fondos lila para las páginas de Tattoos y Stickers
-// ——————————————————————————
+
 #tattoos,
 #stickers {
-  background-color: $lila-claro;  // tu variable definida en _variables.scss
-  padding: 3rem 1rem;             // separaciones arriba y abajo
+  background-color: $lila-claro;  
+  padding: 3rem 1rem;             
 
-  // Opcional: si querés el título en Impact
+
   h2 {
     font-family: Impact, Charcoal, sans-serif;
   }
